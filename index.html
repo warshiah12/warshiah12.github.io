@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+    <title>MovieBot</title>
+</head>
+<body>
+    <!--heading 1 displaying the name of the chatbot-->
+    <h1>MovieBot</h1>
+    <!--creating a class-->
+    <div class="instruction">
+        <h2>INSTRUCTIONS</h2>
+        <p>Please follow the instructions in the chatbot in order for it to function properly
+        <br />
+            Step 1: Enter <b>"Hi/Hello"</b> to greet the bot<br /> Step 2: Either enter <b>"book a ticket"</b> or <b>"about us"</b> or <b>"trending movies"</b> whatever suits you <br />
+            <b style="color:red;">ATTENTION!</b><br />
+            (I've added two steps because the user shouldn't just type <b>'yes'</b> after the welcome intent because doing so could cause the chatbot<br /> to get confused.
+            Please follow step number two for the chatbot to work properly. Thank you!)
+        </p>
+    </div>
+    <!--creating another div class which includes the chatbot code copied from dialogflow-->
+    <div class="chatbot">
+        <iframe width="750" height="330" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/e837d854-ecae-40c9-874c-6cc412d041dc"></iframe>
+    </div>
+   
+</body>
+</html>
